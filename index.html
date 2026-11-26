@@ -3,103 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pixel MD 支持 · Support</title>
-<style>
-  :root {
-    --bg: #ffffff; --card: #ffffff; --line: #e6e9ef;
-    --text: #1f2328; --dim: #57606a; --accent: #0b6bcb;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0e1116; --card: #161b22; --line: #262c36;
-      --text: #e6edf3; --dim: #9da7b3; --accent: #4c9aff;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC",
-          "Hiragino Sans GB", "Segoe UI", sans-serif;
-  }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 72px; }
-  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: .5px; }
-  h1 .tag {
-    font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
-    color: var(--accent); border: 1px solid var(--accent);
-    border-radius: 4px; padding: 3px 5px; vertical-align: 4px; margin-left: 8px;
-  }
-  .sub { color: var(--dim); margin: 0 0 28px; }
-  h2 { font-size: 20px; margin: 40px 0 12px; }
-  h3 { font-size: 16px; margin: 22px 0 6px; }
-  p { margin: 0 0 10px; }
-  ul { margin: 0 0 10px; padding-left: 22px; }
-  li { margin: 4px 0; }
-  a { color: var(--accent); }
-  .card {
-    border: 1px solid var(--line); border-radius: 10px;
-    padding: 18px 20px; margin: 0 0 12px; background: var(--card);
-  }
-  .mail { font-weight: 600; }
-  footer { color: var(--dim); font-size: 13px; margin-top: 48px; border-top: 1px solid var(--line); padding-top: 16px; }
-  .lang { font: 600 12px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--dim); text-transform: uppercase; letter-spacing: 1px; margin-top: 36px; }
-</style>
+<title>Pixel MD 支持</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main>
-  <h1>Pixel MD<span class="tag">离线</span></h1>
-  <p class="sub">iPhone 上的像素风 Markdown 编辑器。完全离线，数据只在你选的文件夹里。</p>
 
-  <div class="card">
-    <p><b>需要帮助？</b> 写信到 <span class="mail">haohao8653@126.com</span>，附上 iOS 版本和问题截图，一般 1–2 天内回复。</p>
-    <p>隐私说明见 <a href="privacy.html">隐私政策</a>。</p>
-  </div>
+<nav class="langbar"><a href="index.html" class="cur">简体中文</a> <a href="zh-Hant/index.html">繁體中文</a> <a href="ja/index.html">日本語</a> <a href="ko/index.html">한국어</a> <a href="en/index.html">English</a></nav>
+<h1>Pixel MD<span class="tag">离线</span></h1>
+<p class="sub">iPhone 上的像素风 Markdown 编辑器。完全离线，数据只在你选的文件夹里。</p>
+<div class="card">
+<p><b>需要帮助？</b> 写信到 haohao8653@126.com，附上 iOS 版本和问题截图，一般一周内回复。</p>
+<p>隐私说明见 <a href="privacy.html">隐私政策</a>。</p>
+</div>
+<h2>常见问题</h2>
+<h3>我的笔记存在哪里？删掉 App 会丢吗？</h3><p>笔记就是你选中的文件夹里的普通 <code>.md</code> 文件，App 不在自己的沙盒里另存一份。卸载 App 不会删除这些文件，重装后重新选同一个文件夹即可。</p><h3>第一次打开怎么用？</h3><p>点「选择文件夹」，在系统文件选择器里指定一个文件夹（iCloud 云盘、本机或其它 App 共享的位置都行）。这个文件夹就是你的笔记库，之后的笔记和文件夹都在里面。</p><h3>需要联网吗？</h3><p>不需要，App 不发起任何网络请求，也没有账号、订阅或统计。飞行模式下功能完整。</p><h3>支持哪些格式？</h3><p>原生编辑：Markdown（.md / .markdown / .txt）。查看：PDF、图片、Word、CSV 等常见文件；CSV 可以在 App 里编辑表格。</p><h3>换手机怎么迁移？</h3><p>文件夹在 iCloud 云盘里的话，新手机装好后选同一个文件夹即可；在「文件」App 里手动拷过去也行。</p><h3>主题、字体和工具栏在哪里改？</h3><p>首页右上角主题按钮里可以换 10 套配色（浅色 / 深色各一套）；编辑页底部齿轮里调字体、行距和工具栏按钮。</p><h3>想反馈问题或提需求？</h3><p>直接写信到 haohao8653@126.com。请写明机型、iOS 版本、复现步骤；涉及显示问题的附截图会快很多。</p>
+<footer><p>Pixel MD · 完全离线</p></footer>
 
-  <h2>常见问题</h2>
-
-  <h3>我的笔记存在哪里？删掉 App 会丢吗？</h3>
-  <p>笔记就是你选中的文件夹里的普通 <code>.md</code> 文件，App 不在自己的沙盒里另存一份。卸载 App 不会删除这些文件，重装后重新选同一个文件夹即可。</p>
-
-  <h3>第一次打开怎么用？</h3>
-  <p>点「选择文件夹」，在系统文件选择器里指定一个文件夹（iCloud 云盘、本机或其它 App 共享的位置都行）。这个文件夹就是你的笔记库，之后的笔记和文件夹都在里面。</p>
-
-  <h3>需要联网吗？</h3>
-  <p>不需要，App 不发起任何网络请求，也没有账号、订阅或统计。飞行模式下功能完整。</p>
-
-  <h3>支持哪些格式？</h3>
-  <p>原生编辑：Markdown（.md / .markdown / .txt）。查看：PDF、图片、Word、CSV 等常见文件；CSV 可以在 App 里编辑表格。</p>
-
-  <h3>换手机怎么迁移？</h3>
-  <p>文件夹在 iCloud 云盘里的话，新手机装好后选同一个文件夹即可；在「文件」App 里手动拷过去也行。</p>
-
-  <h3>主题、字体和工具栏在哪里改？</h3>
-  <p>首页右上角主题按钮里可以换 10 套配色（浅色 / 深色各一套）；编辑页底部齿轮里调字体、行距和工具栏按钮。</p>
-
-  <h3>想反馈问题或提需求？</h3>
-  <p>直接写信到 <span class="mail">haohao8653@126.com</span>。请写明机型、iOS 版本、复现步骤；涉及显示问题的附截图会快很多。</p>
-
-  <h2 id="en">Support (English)</h2>
-
-  <h3>Where are my notes stored?</h3>
-  <p>Your notes are ordinary <code>.md</code> files inside the folder you picked. The app keeps no hidden copy. Deleting the app does not delete them — reinstall and pick the same folder.</p>
-
-  <h3>How do I get started?</h3>
-  <p>Tap “Choose folder” and pick a folder in the system document picker (iCloud Drive, On My iPhone, or any location shared by another app). That folder is your library.</p>
-
-  <h3>Does it need the internet?</h3>
-  <p>No. Pixel MD makes no network requests, has no accounts, and collects no analytics. Everything works in airplane mode.</p>
-
-  <h3>Supported formats</h3>
-  <p>Native editing: Markdown (.md / .markdown / .txt). Viewing: PDF, images, Word, CSV and other common files; CSV tables can be edited in-app.</p>
-
-  <h3>Moving to a new phone</h3>
-  <p>If the folder lives in iCloud Drive, install the app and pick the same folder. Otherwise copy it with the Files app first.</p>
-
-  <h3>Contact</h3>
-  <p>Email <span class="mail">haohao8653@126.com</span> with your device model, iOS version, and steps to reproduce. Screenshots help.</p>
-
-  <footer>
-    <p>Pixel MD · 完全离线 · <a href="privacy.html">隐私政策 Privacy Policy</a></p>
-  </footer>
 </main>
+<script>
+(function(){try{
+  if(location.search.indexOf('lang')>=0)return;
+  var l=(navigator.language||'').toLowerCase();
+  if(/^en/.test(l))location.replace('en/');
+  else if(/^ja/.test(l))location.replace('ja/');
+  else if(/^ko/.test(l))location.replace('ko/');
+  else if(/tw|hk|mo|hant/.test(l))location.replace('zh-Hant/');
+}catch(e){}})();
+</script>
 </body>
 </html>
